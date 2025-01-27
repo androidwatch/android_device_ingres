@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rom_ingres.mk
+    $(LOCAL_DIR)/lineage_ingres.mk

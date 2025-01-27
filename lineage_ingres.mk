@@ -8,9 +8,9 @@
 $(call inherit-product, device/xiaomi/ingres/device.mk)
 
 # Inherit from common lineage configuration
-$(call inherit-product, vendor/rom/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := rom_ingres
+PRODUCT_NAME := lineage_ingres
 PRODUCT_DEVICE := ingres
 PRODUCT_MANUFACTURER := POCO
 PRODUCT_BRAND := POCO
